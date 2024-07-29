@@ -1,25 +1,28 @@
-.container {
+.container{
+    
     align-items: center;
     height: auto;
     
     
 }
-
-
 .glass{
-    
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-@font-face{
     
-    font-family: myFont;
-            src:url(/Images/SF-Pro-Rounded-Regular.otf)
+
 }
-h1{
-    font-family: myFont;
-            src:url(/Images/SF-Pro-Rounded-Regular.otf)
+body{
+    text-align: center;
+    background-image: url(Images/peakpx.jpg);
+}
+.item-1{
+    position: sticky;
+    top: 0px;
+}
+.item-2{
+    position: sticky;
+    top: 110px;
 }
