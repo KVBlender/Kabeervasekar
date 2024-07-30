@@ -23,6 +23,8 @@ body{
     margin: 0 auto;
     width: 1000px;
     border-radius: 20px;
+
+    
 }
 .item-2{
     margin: 0 auto;
@@ -46,4 +48,4 @@ h1{
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     
-}
+}   

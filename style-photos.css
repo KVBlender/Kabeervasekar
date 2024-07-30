@@ -26,3 +26,22 @@ h1{
     position: sticky;
     top: 5px;
 }
+.btn{
+    position: relative;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    Letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 8px;
+    border-color: rgba(132, 132, 132, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+   
+}
+.btn:hover{
+    padding: 11px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
